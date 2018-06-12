@@ -1,0 +1,80 @@
+html {
+  font-size: small;
+}
+.wrap{
+	width: 100%;
+}
+.column {
+	background-color: #e0c6f2;
+    float: left;
+}
+
+@media (min-width: 992px) {
+    .column{
+    	max-width:30%;
+    	margin: 0 0.8% 0 2%;
+    	border: 1px solid black;
+    }
+    p{
+    	padding: 5%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.line
+	{
+		width: 45%;
+		margin: 2% 2% auto;
+		border: 1px solid black;
+	}
+	.diff{
+		width: 94%;
+		margin-top: 20px;
+		margin-left:  2%;
+		border: 1px solid black;
+	}
+	p{
+		padding: 5%;
+	}
+}
+@media(max-width: 767px)
+{
+	.column{
+		margin: 20px auto;
+    	border: 1px solid black;
+	}
+	p{
+		padding: 5%;
+	}
+}
+body{
+	font-family: 'Work Sans', sans-serif;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 20px auto;
+	vertical-align: middle;
+}
+h1{
+	text-align: center;
+	font-size: 175%;
+}
+h4{
+	position: relative;
+	top: 0;
+	float: right;
+	margin:0;
+	width: 150px;
+	text-align: center;
+	border: 1px solid black;
+	font-size: 125%;
+}
+#one{
+	background-color: #ed6dd9;
+}
+#two{
+	color: white;
+	background-color: #ef041c;
+}
+#three{
+	background-color: #6cb4f7;
+}
