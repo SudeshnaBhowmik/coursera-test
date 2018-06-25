@@ -1,0 +1,14 @@
+.navbar{
+	background-color: #e9b1f9;
+	border: 1px solid black;
+	border-radius: 0;
+}
+.sect{
+
+	background-color: #f29bcd;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+.container{
+	margin-bottom: 20px;
+}
